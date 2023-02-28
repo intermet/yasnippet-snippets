@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: printf
-# key: pr
+# key: printf
 # --
-Printf.printf "${1:string}" ${2:vals};;
+Stdio.Out_channel.printf "${1:string}" ${2:vals}
